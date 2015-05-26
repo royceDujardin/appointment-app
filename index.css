@@ -44,36 +44,55 @@ table {
 
 
 body{
+	background-position:cover;
   background-color: seagreen;
-  padding: 2em;
+  padding: 2em 0.4em;
   font-family: 'Dosis', sans-serif;
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ), seagreen;
+      rgba(255, 255, 255, 0.5)),
+			url("walk.jpg")   ;
+			background-size:540%;
+
+
+
 }
 .header{
-  background-color: #D4D4BF;
+  background-color:#64DE93;
   font-size: 1.5em;
   font-family: 'Roboto Slab', serif;
-  padding: .5em 1em;
+  /*padding: .5em 1em;*/
   border-radius: .5em;
+	border:1px solid black;
+	height:2em;
+	width:100%;
+	padding-top:1em;
+
 
 }
 
 
 .appName{
-  color: white;
-  text-shadow: 1px 2px black;
-  border-right: 2px solid black;
-  padding: 0 1em;
-  border: 1px solid black;
-  text-align: center;
+  color: black;
+  text-shadow: 1px 2px grey;
+  padding-left:2em;
+	font-size:1.2em;
+
 }
 
 .addAppointment{
-  padding: 0 1em;
-  font-size: 1.5em;
-  border: 1px solid black;
-  text-align: right;
+
+	/*float: right;*/
+  font-size: 1em;
+  background-color:#BDE9FC;
+	padding-right:em;
+	/*border-radius: .5em;*/
+
+
+
+
+}
+
+.addAppointment:hover{
+	background-color:#6BCAF7;
 }
