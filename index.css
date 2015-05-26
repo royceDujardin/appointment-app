@@ -47,28 +47,33 @@ body{
   background-color: seagreen;
   padding: 2em;
   font-family: 'Dosis', sans-serif;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ), seagreen;
 }
 .header{
-  background-color: grey;
-  margin: auto;
-  padding: 1em;
+  background-color: #D4D4BF;
   font-size: 1.5em;
   font-family: 'Roboto Slab', serif;
+  padding: .5em 1em;
+  border-radius: .5em;
 
 }
-
-.logo{
-  background-color: orange;
-  border-right: 2px solid black;
-
-}
-
 
 
 .appName{
+  color: white;
+  text-shadow: 1px 2px black;
   border-right: 2px solid black;
+  padding: 0 1em;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .addAppointment{
-
+  padding: 0 1em;
+  font-size: 1.5em;
+  border: 1px solid black;
+  text-align: right;
 }
