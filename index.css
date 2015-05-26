@@ -73,6 +73,7 @@ body{
 
 
 .appName{
+<<<<<<< HEAD
   color: black;
   text-shadow: 1px 2px grey;
   padding-left:2em;
@@ -81,6 +82,7 @@ body{
 }
 
 .addAppointment{
+
 
 	/*float: right;*/
   font-size: 1em;
@@ -95,4 +97,40 @@ body{
 
 .addAppointment:hover{
 	background-color:#6BCAF7;
+  padding: 0 1em;
+  font-size: 1.5em;
+  border: 1px solid black;
+
+}
+
+.appointmentBox{
+  margin-top: 2em;
+  border-radius: .5em;
+}
+
+li{
+  background: white;
+  margin-left: 1em;
+  border: 2px solid #85CAAB;
+  border-radius: .5em;
+}
+
+.appointmentTime{
+  margin: 1em;
+  top: 5px;
+  left:2px;
+  display: inline-block;
+}
+
+
+.appointmentName{
+  margin: 1em;
+  display: inline-block;
+  }
+
+.appointmentLocation{
+  margin: 1em;
+  position: relative;
+  left: 90px;
+
 }
