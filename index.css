@@ -68,12 +68,43 @@ body{
   border-right: 2px solid black;
   padding: 0 1em;
   border: 1px solid black;
-  text-align: center;
+
 }
 
 .addAppointment{
   padding: 0 1em;
   font-size: 1.5em;
   border: 1px solid black;
-  text-align: right;
+
+}
+
+.appointmentBox{
+  margin-top: 2em;
+  border-radius: .5em;
+}
+
+li{
+  background: white;
+  margin-left: 1em;
+  border: 2px solid #85CAAB;
+  border-radius: .5em;
+}
+
+.appointmentTime{
+  margin: 1em;
+  top: 5px;
+  left:2px;
+  display: inline-block;
+}
+
+
+.appointmentName{
+  margin: 1em;
+  display: inline-block;
+  }
+
+.appointmentLocation{
+  margin: 1em;
+  position: relative;
+  left: 90px;
 }
