@@ -50,7 +50,7 @@ body{
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)),
-			url("walk.jpg")   ;
+			url("img/walk.jpg")   ;
 			background-size:540%;
 			padding-top:0;
 
