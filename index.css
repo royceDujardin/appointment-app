@@ -46,13 +46,13 @@ table {
 body{
 	background-position:cover;
   background-color: seagreen;
-  padding: 2em 0.4em;
   font-family: 'Dosis', sans-serif;
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)),
 			url("walk.jpg")   ;
 			background-size:540%;
+			padding-top:0;
 
 
 
@@ -60,14 +60,11 @@ body{
 .header{
   background-color:#64DE93;
   font-size: 1.5em;
+	font-family: untitled-font-1;
   font-family: 'Roboto Slab', serif;
-  /*padding: .5em 1em;*/
-  border-radius: .5em;
-	border:1px solid black;
 	height:2em;
 	width:100%;
 	padding-top:1em;
-
 
 }
 
@@ -83,15 +80,8 @@ body{
 
 .addAppointment{
 
-
-	/*float: right;*/
   font-size: 1em;
   background-color:#BDE9FC;
-	padding-right:em;
-	/*border-radius: .5em;*/
-
-
-
 
 }
 
@@ -99,13 +89,13 @@ body{
 	background-color:#6BCAF7;
   padding: 0 1em;
   font-size: 1.5em;
-  border: 1px solid black;
 
 }
 
 .appointmentBox{
   margin-top: 2em;
   border-radius: .5em;
+	padding-right:1.2em;
 }
 
 li{
@@ -133,4 +123,15 @@ li{
   position: relative;
   left: 90px;
 
+}
+
+.icon-diff-added{
+	font-size:35px;
+	float:right;
+	padding-left:20px;
+}
+.icon-diff-added:hover{
+	background-color:#6BCAF7;
+	border: 3px solid black;
+	cursor:pointer;
 }
