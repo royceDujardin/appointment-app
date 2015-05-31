@@ -74,20 +74,22 @@
 
         },
 
-        detail: function(){
+        new: function(){
+
+
 
         },
 
         edit: function(id){
-
+          alert("Put templates Here??" + id);
         },
       });
 
 
       var app_router = new Router;
-      app_router.on("route:new", function(){
-        alert("whats happening??");
-      });
+      // app_router.on("route:new", function(){
+      //   alert("Put templates Here??");
+      // });
 
       Backbone.history.start();
 
