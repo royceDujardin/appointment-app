@@ -125,13 +125,13 @@ li{
 
 }
 
-.icon-diff-added{
+.icon-plus{
 	font-size:35px;
 	float:right;
-	padding-left:20px;
+	padding:0;
 }
-.icon-diff-added:hover{
-	background-color:#6BCAF7;
+.icon-plus:hover{
+	
 	border: 3px solid black;
 	cursor:pointer;
 }

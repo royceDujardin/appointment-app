@@ -15,9 +15,8 @@
         Appointments
       </span>
 
-      <button class="icon-diff-added  ">
 
-      </button>
+      <div class="icon-plus"></div>
 
 
     </div>
@@ -59,5 +58,67 @@
     <script src="js/newAppointment.js"></script>
     <script src="js/detailAppointment.js"></script>
     <script src="js/editAppointment.js"></script>
+
+    <script>
+    console.log("hello");
+
+      var Router = Backbone.Router.extend({
+        routes:{
+          '':'home',
+          'new':'new',
+          'detail':'detail',
+          'edit/:id':'edit',
+        },
+
+        home: function(){
+
+        },
+
+        detail: function(){
+
+        },
+
+        edit: function(id){
+
+        },
+      });
+
+
+      var app_router = new Router;
+      app_router.on("route:new", function(){
+        alert("whats happening??");
+      });
+
+      Backbone.history.start();
+
+    </script>
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c
